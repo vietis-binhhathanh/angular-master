@@ -3,10 +3,15 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+// Day-1
+// Import component vào root module
+import { WordComponent } from './word.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    // Import component vào root module
+    WordComponent
   ],
   imports: [
     BrowserModule,
